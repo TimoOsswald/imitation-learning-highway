@@ -12,13 +12,13 @@ semester.
 
 ## Status
 
-🚧 Work in progress. Currently working through PyTorch fundamentals 
+Work in progress. Currently working through PyTorch fundamentals 
 (tensors, datasets/dataloaders, neural network basics) before implementing 
 the actual training pipeline.
 
 ## Roadmap
 
-- [ ] PyTorch basics (tensors, autograd fundamentals)
+- [x] PyTorch basics (tensors, autograd fundamentals)
 - [ ] highway-env setup & exploration
 - [ ] Demonstration collection pipeline
 - [ ] Behavior Cloning implementation
