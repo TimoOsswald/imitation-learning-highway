@@ -10,21 +10,25 @@ This project explores and learns core imitation learning techniques (Behavior Cl
 DAgger) as a foundation for robot learning, built during a study-abroad 
 semester.
 
-## Status
-
-Work in progress. Currently working through PyTorch fundamentals 
-(tensors, datasets/dataloaders, neural network basics) before implementing 
-the actual training pipeline.
-
 ## Roadmap
 
-- [x] PyTorch basics (tensors, autograd fundamentals)
-- [ ] highway-env setup & exploration
+**Core pipeline**
+- [x] PyTorch fundamentals 
+- [x] highway-env observation & action space understood (Kinematics, 
+      DiscreteMetaAction)
+- [ ] Environment setup
+- [x] Rule-based expert policy
 - [ ] Demonstration collection pipeline
 - [ ] Behavior Cloning implementation
 - [ ] Distributional shift analysis
 - [ ] DAgger implementation
 - [ ] BC vs. DAgger comparison
+
+**Future extensions**
+- [ ] Finer-grained discrete control (`DiscreteAction`) as a stepping stone
+- [ ] Continuous action space
+- [ ] Image-based (Grid/Grayscale) observation + CNN policy
+- [ ] Sensor fusion (Kalman filter-based state estimation)
 
 ## Tech Stack
 
