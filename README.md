@@ -18,7 +18,7 @@ semester.
       DiscreteMetaAction)
 - [ ] Environment setup
 - [x] Rule-based expert policy
-- [ ] Demonstration collection pipeline
+- [x] Demonstration collection pipeline
 - [ ] Behavior Cloning implementation
 - [ ] Distributional shift analysis
 - [ ] DAgger implementation
