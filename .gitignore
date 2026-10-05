@@ -11,6 +11,8 @@ data/
 *.pth
 *.npz
 
+checkpoints/
+
 # Distribution / packaging
 .Python
 build/
