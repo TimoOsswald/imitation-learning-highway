@@ -19,7 +19,7 @@ semester.
 - [ ] Environment setup
 - [x] Rule-based expert policy
 - [x] Demonstration collection pipeline
-- [ ] Behavior Cloning implementation
+- [x] Behavior Cloning implementation
 - [ ] Distributional shift analysis
 - [ ] DAgger implementation
 - [ ] BC vs. DAgger comparison
