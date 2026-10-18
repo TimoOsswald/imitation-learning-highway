@@ -10,16 +10,26 @@ This project explores and learns core imitation learning techniques (Behavior Cl
 DAgger) as a foundation for robot learning, built during a study-abroad 
 semester.
 
+## Results
+
+Evaluated on 200 episodes with seeds 5000–5199, which were not used for collecting the training demonstrations.
+
+| policy    | crash rate | avg return | avg steps |
+|-----------|-----------:|-----------:|----------:|
+| BC policy |       8.0% |      31.25 |      38.1 |
+| expert    |      11.0% |      31.15 |      37.5 |
+
 ## Roadmap
 
 **Core pipeline**
 - [x] PyTorch fundamentals 
 - [x] highway-env observation & action space understood (Kinematics, 
       DiscreteMetaAction)
-- [ ] Environment setup
+- [x] Environment setup (for now default highway-v0 config)
 - [x] Rule-based expert policy
 - [x] Demonstration collection pipeline
 - [x] Behavior Cloning implementation
+- [x] Evaluation pipeline (BC vs. expert)
 - [ ] Distributional shift analysis
 - [ ] DAgger implementation
 - [ ] BC vs. DAgger comparison
